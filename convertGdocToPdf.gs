@@ -1,3 +1,9 @@
+// google apps script
+// author: prr
+// created 28/2/2022
+// copyright license: MIT
+// 
+
 function convertGdocToPdf() {
   var content,fileName,newFile;//Declare variable names
   const currentDoc = DocumentApp.getActiveDocument();

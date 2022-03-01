@@ -3,6 +3,7 @@
 // bugs
 // 20 Dec 2021 heading 5 has no new line
 // file testHeading
+// 3 Mar 2022 inline image height has = instead of :
 //
 class listObj {
   constructor () {
@@ -480,7 +481,7 @@ function CreateParHtml(child) {
         } else {  
           wo.BodyHtml += '<img src="' + urlstr + '" id="' + imgId +'"> >\r<br>\r';
         }
-        wo.BodyCss += '  width:' + gchild.getWidth() + '\r  height=' + gchild.getHeight() + '\r';
+        wo.BodyCss += '  width:' + gchild.getWidth() + '\r  height:' + gchild.getHeight() + '\r';
         wo.BodyCss += '}/r;'
         wo.imgCount++;
         break;       
